@@ -1,0 +1,24 @@
+# Permissões:
+
+# sjm.fly - Permissão para o comando /voar
+# sjm.speed - Permissão para o comando /speed <velocidade>
+
+CooldownTime: 5 # Tempo em segundos.
+
+MySQL:
+  Host: "localhost"
+  Port: "3306"
+  Database_name: "inicial_database"
+  Username: "username"
+  Password: "password"
+
+
+Mensagens:
+  AguardeOCooldown: "&cAguarde o cooldown terminar. Tempo restante: %rt%" # %rt% = Remaining Time/Tempo restante.
+  ColocadoNoCooldown: "&aComando executado! Você foi adcionado no cooldown."
+  SemPermissao: "&cSem permissão."
+  FlyLigado: "&aModo voar ativo."
+  FlyDesligado: "&cModo voar inativo."
+  SemArgumentos: "&cUse /<comando> [argumento]"
+  VelocidadeAlterada: "&aVelocidade alterada."
+  PlayerInexistente: "&cPlayer mencionado inexistente."

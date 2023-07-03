@@ -1,0 +1,16 @@
+name: SpigotJM
+main: me.danielvianna.jplugin.Main
+version: 1.0.0
+website: https://github.com/danielviannaa
+description: Plugin geral para Spigot feito em Java e Maven
+author: Viannaa
+prefix: SJM
+commands:
+  cooldown:
+    description: Comando de cooldown
+  fly:
+    aliases:
+      - voar
+    description: Ativa ou desativa o modo voar
+  speed:
+    description: Muda a velocidade do player
