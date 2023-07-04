@@ -76,7 +76,7 @@ public class MySQLDatabaseCreator {
             Statement statement = connection.createStatement();
             ResultSet resultSet = statement.executeQuery(checkIfExistsQuery);
             if (!resultSet.next()) {
-                // Se a tabela não existe, criar a tabela com uma coluna do tipo VARCHAR(255)
+                // Se a tabela não existe, criar a tabela com uma coluna
                 String createTableQuery = "CREATE TABLE " + tableName + " VALUES (?)";
                 statement.executeUpdate(createTableQuery);
                 Main.getInstance().getLogger().info("Tabela criada: " + tableName);

@@ -14,7 +14,6 @@ public class MySQLManager {
 
     public void registerAllMySQL() {
         MySQLConnectionManager connectionManager = new MySQLConnectionManager();
-        connectionManager = new MySQLConnectionManager();
         connectionManager.connect(host, port, database, username, password);
 
     }
